@@ -5,7 +5,7 @@ $(document).ready(function() {
 	    itemSelector : '.image_link',
 	    columnWidth:240,
 	    isAnimated: true,
-	    isAnimatedFromBottom: true,
+	    isFitWidth:true,
 	    gutterWidth: 0
 	  });
 	});
