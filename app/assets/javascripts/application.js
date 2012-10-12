@@ -11,8 +11,8 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
-//= require imagesloaded/jquery.imagesloaded.min
-//= require masonry/jquery.masonry.min
-//= require links
 //= require jquery_ujs
+//= require links
+//= require jquery.imagesloaded
 //= require_tree .
+

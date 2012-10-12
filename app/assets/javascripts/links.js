@@ -1,12 +1,13 @@
-var $container = $('#container');
-$container.imagesLoaded(function(){
-  $container.masonry({
-    itemSelector : '.image_link',
-     gutterWidth: 1,
-     columnWidth: function( containerWidth ) {
-    return containerWidth / 5;
- 	 }
+$(document).ready(function() {
 
+	$('#container').imagesLoaded(function(){
+	  $('#container').masonry({
+	    itemSelector : '.image_link',
+	    columnWidth:240,
+	    isAnimated: true,
+	    isAnimatedFromBottom: true,
+	    gutterWidth: 0
+	  });
+	});
 
-  });
 });

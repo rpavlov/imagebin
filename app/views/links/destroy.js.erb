@@ -1,0 +1,5 @@
+$("#link_errors").hide(300);
+$("#flash_notice").html("<%= escape_javascript(flash[:notice])%>");
+$("#flash_notice").show(300);
+$("#container").html("<%= escape_javascript( render(:partial => "links") ) %>");
+

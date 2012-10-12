@@ -1,0 +1,27 @@
+<% if @link.errors.any? -%>
+  /*Hide the flash notice div*/
+  $("#flash_notice").hide(300);
+
+  /*Update the html of the div bookmark_errors with the new one*/
+  $("#link_errors").html("<%= escape_javascript(error_messages_for(@link))%>");
+
+  /*Show the div bookmark_errors*/
+  $("#link_errors").show(300);
+<% else -%>
+  /*Hide the div bookmark_errors*/
+  $("#link_errors").hide(300);
+
+  /*Update the html of the div flash_notice with the new one*/
+  $("#flash_notice").html("<%= escape_javascript(flash[:notice])%>");
+
+  /*Show the flash_notice div*/
+  $("#flash_notice").show(300);
+
+  /*Clear the entire form*/
+  $(":input:not(input[type=submit])").val("");
+
+  /*Replace the html of the div bookmark_lists with the updated new one*/
+  $("#container").html("<%= escape_javascript( render(:partial => "links") ) %>");
+ // var $newguy = $('<div class="image_link"><a href='@link'></div>')
+  //$("#container").append($newguy).masonry('appended', $newguy);
+<% end -%>

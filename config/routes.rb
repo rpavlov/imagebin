@@ -2,7 +2,7 @@ ImageBin::Application.routes.draw do
 
   resources :links
 
-  root to: 'static_pages#home'
+  root to: 'links#index'
   # first created -> highest priority.
 
   # Sample of regular route:

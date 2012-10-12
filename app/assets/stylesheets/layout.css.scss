@@ -1,10 +1,27 @@
-fieldset#upload_container {
+html{
+	height:100%;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	overflow-y: scroll; 
+	body{
+		background: #EEE;
+		margin: 0;
+		height:100%;
+		background: #272822;
+		text: #57FF57; 
+	}
+}
+
+legend{
+	margin: 3px;
+}
+
+#upload_container {
 	font-size: 0.9em;
-	height: 68px;
-	margin-bottom: 10px;
+	margin: 10px ;
 	overflow: hidden;
-	padding: 40px 20px;
-	border: 5px solid;
+	border: 2.5px solid #57FF57 ;
+	background-color: black;
+	padding: 20px;
 }
 
 div.container {
@@ -12,15 +29,16 @@ div.container {
 	padding: 0 20px;
 }
 
-input.input_field{
-	width:100%;
-	padding:5px;
-}
+input{
+	.input_field{
+		width:100%;
+		padding:5px;
+	}
 
-input.btn
-{
-	padding:15px;
-	width:250px;
+	.btn{
+		padding:15px;
+		width:250px;
+	}
 }
 
 a,
@@ -32,9 +50,18 @@ img
  {
 	text-decoration: none;
 	border-style: none;
+	width:240px;
+}
+
+img:hover{
 }
 
 .image_link {
+  width: 210px;
   margin: 10px;
   float: left;
+}
+
+ul{
+  list-style-type: none; 
 }
