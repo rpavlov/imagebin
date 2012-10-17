@@ -33506,3 +33506,204 @@ Served asset /masonry/js/modernizr-transitions.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-17 11:53:06 -0400
 Served asset /application.js - 304 Not Modified (70ms)
+Connecting to database specified by database.yml
+  [1m[36m (2.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateLinks (20120808183406)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("links")
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-17 13:55:04 -0400
+Connecting to database specified by database.yml
+Processing by LinksController#index as HTML
+  [1m[36mLink Load (0.2ms)[0m  [1mSELECT "links".* FROM "links" [0m
+  Rendered links/_form.html.erb (46.4ms)
+  Rendered links/_links.html.erb (22.1ms)
+  Rendered links/index.html.erb within layouts/application (79.7ms)
+Completed 200 OK in 314ms (Views: 218.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.gridster.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /jquery.gridster.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /layout.css - 200 OK (1ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /links.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /jquery.js - 200 OK (9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /links.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.imagesloaded.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /jquery.imagesloaded.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imagesloaded/jquery.imagesloaded.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /imagesloaded/jquery.imagesloaded.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imagesloaded/js/jquery.loremimages.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /imagesloaded/js/jquery.loremimages.min.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/imagesloaded/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /imagesloaded/jquery.imagesloaded.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imagesloaded/js/prettify.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /imagesloaded/js/prettify.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/imagesloaded/js/scripts.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /imagesloaded/js/scripts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.masonry.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /jquery.masonry.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /jquery.masonry.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /masonry/jquery.masonry.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/masonry/js/box-maker.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /masonry/js/box-maker.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/masonry/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /masonry/jquery.masonry.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/masonry/js/jquery-1.7.1.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /masonry/js/jquery-1.7.1.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/masonry/js/jquery.infinitescroll.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /masonry/js/jquery.infinitescroll.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/masonry/js/modernizr-transitions.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /masonry/js/modernizr-transitions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:05 -0400
+Served asset /application.js - 200 OK (37ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-17 13:55:08 -0400
+Processing by LinksController#index as HTML
+  [1m[35mLink Load (0.2ms)[0m  SELECT "links".* FROM "links" 
+  Rendered links/_form.html.erb (0.8ms)
+  Rendered links/_links.html.erb (71.7ms)
+  Rendered links/index.html.erb within layouts/application (76.4ms)
+Completed 200 OK in 103ms (Views: 95.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.gridster.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /jquery.gridster.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /layout.css - 200 OK (3ms)
+
+
+Started GET "/assets/links.css?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /links.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/links.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /links.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.imagesloaded.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /jquery.imagesloaded.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imagesloaded/jquery.imagesloaded.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /imagesloaded/jquery.imagesloaded.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/imagesloaded/jquery.imagesloaded.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /imagesloaded/jquery.imagesloaded.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imagesloaded/js/jquery.loremimages.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /imagesloaded/js/jquery.loremimages.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imagesloaded/js/prettify.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /imagesloaded/js/prettify.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/imagesloaded/js/scripts.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /imagesloaded/js/scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.masonry.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /jquery.masonry.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /jquery.masonry.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/masonry/jquery.masonry.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /masonry/jquery.masonry.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/masonry/jquery.masonry.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /masonry/jquery.masonry.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/masonry/js/box-maker.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /masonry/js/box-maker.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/masonry/js/jquery-1.7.1.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /masonry/js/jquery-1.7.1.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/masonry/js/jquery.infinitescroll.min.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /masonry/js/jquery.infinitescroll.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/masonry/js/modernizr-transitions.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /masonry/js/modernizr-transitions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-10-17 13:55:09 -0400
+Served asset /application.js - 304 Not Modified (2ms)
